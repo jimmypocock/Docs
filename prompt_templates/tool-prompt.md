@@ -13,6 +13,12 @@ You are tasked with creating a standardized resource entry for a software tool i
 ## Tool to analyze:
 [PASTE TOOL NAME OR URL HERE]
 
+<documentation_links>
+-
+-
+-
+</documentation_links>
+
 ## Template to fill:
 
 # [Tool Name]
