@@ -1,5 +1,3 @@
-# Category README Template Generator
-
 You are tasked with creating a comprehensive README.md file for a specific technology category in a technical resources repository. Please generate a complete category README based on the provided category name and context.
 
 ## Instructions:

@@ -1,5 +1,3 @@
-# Tutorial Resource Template Generator
-
 You are tasked with creating a standardized resource entry for a technical tutorial in a documentation repository. Please analyze the provided tutorial URL and generate a complete resource file using the template below.
 
 ## Instructions:

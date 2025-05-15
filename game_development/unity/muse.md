@@ -9,12 +9,10 @@ You are tasked with creating a standardized resource entry for a software tool i
 6. Return the completed template ready for use
 
 ## Tool to analyze:
-[PASTE TOOL NAME OR URL HERE]
+Unity Muse
 
 <documentation_links>
--
--
--
+- https://unity.com/products/muse
 </documentation_links>
 
 ## Template to fill:

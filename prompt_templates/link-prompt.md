@@ -1,5 +1,3 @@
-# Link Resource Template Generator
-
 You are tasked with creating a standardized resource entry for a technical documentation repository. Please analyze the provided link and generate a complete resource file using the template below.
 
 ## Instructions:
