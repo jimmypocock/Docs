@@ -1,100 +1,125 @@
-You are tasked with creating a standardized resource entry for a software tool in a technical documentation repository. Please analyze the provided tool and generate a complete resource file using the template below.
-
-## Instructions:
-1. Research the tool thoroughly (website, documentation, GitHub)
-2. Identify primary use cases and key features
-3. Find installation/setup instructions
-4. Determine pros/cons and alternatives
-5. Generate appropriate tags based on tool type and purpose
-6. Return the completed template ready for use
-
-## Tool to analyze:
-Unity Muse
-
-<documentation_links>
-- https://unity.com/products/muse
-</documentation_links>
-
-## Template to fill:
-
-# [Tool Name]
+# Unity Muse
 
 ## Description
-[Brief overview of what this tool does - 1-2 sentences]
+Unity Muse is an AI-powered suite of tools integrated directly into the Unity Editor that enhances game development workflows with generative AI capabilities including chat assistance, asset creation, and animation generation.
 
 ## URL/Installation
-- Website: [Tool's official website]
-- GitHub: [GitHub repository if applicable]
-- Installation: [Installation command or link to instructions]
+- Website: https://unity.com/products/muse
+- GitHub: N/A (Proprietary Unity tool)
+- Installation: Available through Unity Package Manager (requires Unity 2023.3/Unity 6 or later)
 
 ## Tags
-#tool #[category] #[difficulty] #[feature-tags]
+#tool #game-development #ai #unity #intermediate #paid #generative-ai #3d #2d #asset-creation #chat-assistant
 
 ## Use Cases
-- [Primary use case 1]
-- [Primary use case 2]
-- [Primary use case 3]
-- [Additional use cases]
+- AI-powered chat assistance for Unity-specific development questions
+- Generate game-ready textures from text prompts
+- Create 2D sprites directly within Unity Editor
+- Generate character animations from text descriptions
+- Set up character behavior trees via natural language
+- Enhance existing 2D sprites with AI-powered editing tools
+- Rapid prototyping of game assets and mechanics
 
 ## Key Features
-- [Notable feature 1]
-- [Notable feature 2]
-- [Notable feature 3]
-- [Additional features]
+- **Muse Chat**: Project-aware AI assistant trained on Unity documentation and resources
+- **Muse Texture**: Generate realistic or imaginative textures from text prompts
+- **Muse Sprite**: Create 2D art and sprites instantly with text descriptions
+- **Muse Animate**: Generate character animations from natural language prompts
+- **Muse Behavior**: Create behavior trees for character interactions via text
+- **2D Enhancers**: Upscale, recolor, pixelate, or remove backgrounds from sprites
+- **In-editor integration**: All tools work directly within Unity Editor without external dependencies
 
 ## Installation/Setup
-[Installation commands or steps - use proper formatting for code]
+```bash
+# Install via Unity Package Manager
+# 1. Open Unity Editor (2023.3 or later)
+# 2. Go to Window > Package Manager
+# 3. Select Add > Add package by name
+# 4. Add these packages individually:
+
+# For Chat functionality:
+com.unity.muse.chat
+
+# For Texture generation:
+com.unity.muse.texture
+
+# For Sprite generation:
+com.unity.muse.sprite
+
+# For Behavior trees:
+com.unity.muse.behavior
+
+# For Animation generation:
+com.unity.muse.animate
+```
 
 ## Basic Usage
-[Basic command examples - use proper formatting for code]
+```csharp
+// Access Muse Chat
+// Go to main menu: Muse > Chat
+
+// Generate textures
+// Window > AI > Muse Texture
+// Enter text prompt: "weathered stone wall"
+
+// Create sprites
+// Window > AI > Muse Sprite
+// Enter prompt: "fantasy sword icon"
+
+// Generate animations
+// Select humanoid character
+// Window > AI > Muse Animate
+// Prompt: "character jumping motion"
+```
 
 ## Configuration
-[Example configuration file or settings - use proper formatting]
+```yaml
+# Unity Muse requires:
+# - Unity 2023.3 (Unity 6) or later
+# - Active Unity Muse subscription
+# - Internet connection for AI generation
+# - Unity ID and account authentication
+
+# Subscription Details:
+# - 30-day free trial (no credit card required)
+# - $30/month subscription during early access
+# - Unlimited generations while in early access
+```
 
 ## Alternatives
-- [Alternative tool 1 with brief comparison]
-- [Alternative tool 2 with brief comparison]
-- [Additional alternatives]
+- **Ludo.ai**: Game concept research and asset generation with trend analysis
+- **Scenario.ai**: AI-powered game asset creation with custom model training
+- **Charmed.ai**: AI toolkit for 3D asset generation and game development
+- **Buildbox Classic**: Drag-and-drop 2D game creation without coding
+- **External AI tools**: ChatGPT/Claude for coding assistance + Midjourney/DALL-E for assets (manual integration required)
 
 ## Pros/Cons
 **Pros:**
-- [Advantage 1]
-- [Advantage 2]
-- [Advantage 3]
+- Seamlessly integrated into Unity Editor workflow
+- Project-aware AI chat trained specifically on Unity resources
+- Multiple specialized tools for different asset types (sprites, textures, animations)
+- No need to switch between external tools
+- Saves time on asset creation and prototyping
+- 30-day free trial with unlimited generations
 
 **Cons:**
-- [Limitation 1]
-- [Limitation 2]
-- [Limitation 3]
+- Requires paid subscription ($30/month) after trial
+- Limited to Unity ecosystem only
+- Requires Unity 2023.3 or later
+- Dependent on internet connection for AI features
+- Still in early access with potential limitations
+- May raise concerns about AI-generated content ownership and ethics
 
 ## Date Added
-[Today's date in YYYY-MM-DD format]
+2025-05-15
 
 ## Last Updated
-[Today's date in YYYY-MM-DD format]
+2025-05-15
 
 ## Notes
-[Additional tips, warnings, or observations]
-
-## Tagging Guidelines:
-- **Type**: Always include #tool
-- **Category**: Choose from #frontend, #backend, #fullstack, #mobile, #devops, #ai, #aws, #docker, #kubernetes, etc.
-- **Difficulty**: #beginner, #intermediate, #advanced
-- **Tool Type**: #cli, #gui, #library, #framework, #build-tool, #testing, #deployment, #monitoring, #debug, etc.
-- **Features**: #open-source, #free, #paid, #enterprise, #cross-platform, #performance, #security, etc.
-
-## Tool Categories:
-- Development tools: #ide, #editor, #debug, #build-tool
-- Testing tools: #testing, #automation, #performance-testing
-- DevOps tools: #deployment, #cicd, #monitoring, #containerization
-- Database tools: #database, #orm, #migration
-- Security tools: #security, #authentication, #encryption
-
-## Research Tips:
-- Check the tool's GitHub for accurate installation instructions
-- Look for official documentation for features and use cases
-- Consider community adoption and activity
-- Note any licensing restrictions
-- Identify the primary programming language or platform
-
-Please analyze the tool and return the completed template with all fields filled in appropriately.
+- Unity Muse is currently in early access, so features and pricing may change
+- The tool is designed specifically for Unity users and won't work in other game engines
+- All AI models are trained using Unity-owned data to address ethical concerns
+- Consider the monthly subscription cost when budgeting for game development projects
+- Best suited for rapid prototyping and iterating on game concepts
+- Early access includes unlimited generations, but this may change in future releases
