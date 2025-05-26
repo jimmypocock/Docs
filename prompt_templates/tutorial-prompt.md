@@ -6,10 +6,16 @@ You are tasked with creating a standardized resource entry for a technical tutor
 3. Estimate completion time based on tutorial length and complexity
 4. Identify prerequisites and difficulty level
 5. Generate appropriate tags
-6. Return the completed template ready for use
+6. Return the completed template ready for use in an .md document
 
 ## Tutorial URL to analyze:
 [PASTE YOUR TUTORIAL LINK HERE]
+
+<documentation_links>
+-
+-
+-
+</documentation_links>
 
 ## Template to fill:
 

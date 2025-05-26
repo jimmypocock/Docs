@@ -6,7 +6,7 @@ You are tasked with creating a comprehensive README.md file for a specific techn
 3. Generate appropriate tags and search examples
 4. Include cross-category references where relevant
 5. Provide a clear overview of what the category covers
-6. Return a complete README.md ready for use
+6. Return the completed template ready for use in an .md document
 
 ## Category to create README for:
 [PASTE CATEGORY NAME HERE - e.g., "React", "Docker", "AWS", "Machine Learning"]

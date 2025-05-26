@@ -5,7 +5,7 @@ You are tasked with creating a standardized resource entry for a technical docum
 2. Extract relevant information to fill in the template
 3. Generate appropriate tags based on the content
 4. Provide a concise but informative description
-5. Return the completed template ready for use
+6. Return the completed template ready for use in an .md document
 
 ## URL to analyze:
 [PASTE YOUR LINK HERE]

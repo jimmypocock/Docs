@@ -1,18 +1,22 @@
 # Cline
 
 ## Description
+
 Cline is an open-source AI autonomous coding agent for VS Code that can create/edit files, execute terminal commands, use the browser, and integrate with external tools through the Model Context Protocol (MCP), all with human-in-the-loop approval.
 
 ## URL/Installation
+
 - Website: https://cline.bot/
 - GitHub: https://github.com/cline/cline
 - Documentation: https://docs.cline.bot/
 - Installation: Install from VS Code Marketplace by searching "Cline"
 
 ## Tags
+
 #tool #ai #ide #extension #vscode #coding-assistant #autonomous #cli #open-source #free #intermediate #advanced
 
 ## Use Cases
+
 - Autonomous code generation and refactoring across multiple files
 - Terminal command execution with error handling and debugging
 - Browser automation for testing and visual debugging
@@ -23,6 +27,7 @@ Cline is an open-source AI autonomous coding agent for VS Code that can create/e
 - Real-time collaborative coding with AI assistance
 
 ## Key Features
+
 - **Dual Plan/Act Modes**: Switch between planning and execution modes for different task complexities
 - **Browser Integration**: Computer Use capability with Anthropic Claude for visual debugging and testing
 - **Terminal Execution**: Direct command execution with shell integration and error handling
@@ -33,6 +38,7 @@ Cline is an open-source AI autonomous coding agent for VS Code that can create/e
 - **Human-in-the-Loop**: Approval required for all file changes and terminal commands
 
 ## Installation/Setup
+
 ```bash
 # Install via VS Code
 1. Open VS Code
@@ -47,6 +53,7 @@ Cline is an open-source AI autonomous coding agent for VS Code that can create/e
 ```
 
 ## Basic Usage
+
 ```javascript
 // Open Cline
 1. Click the Cline icon in Activity Bar
@@ -65,6 +72,7 @@ Cline is an open-source AI autonomous coding agent for VS Code that can create/e
 ```
 
 ## Configuration
+
 ```json
 // Extension Settings (accessible via gear icon)
 {
@@ -88,6 +96,7 @@ Cline is an open-source AI autonomous coding agent for VS Code that can create/e
 ```
 
 ## Alternatives
+
 - **Cursor**: VS Code fork with built-in AI, subscription-based with immediate code generation focus
 - **GitHub Copilot**: Microsoft's AI assistant, great for autocomplete but less autonomous
 - **Windsurf**: IDE with collaborative AI features, similar capabilities but closed-source
@@ -95,7 +104,9 @@ Cline is an open-source AI autonomous coding agent for VS Code that can create/e
 - **Roo Code**: Fork of Cline with additional team collaboration features
 
 ## Pros/Cons
+
 **Pros:**
+
 - Completely open-source and free (pay only for API usage)
 - Model-agnostic with support for multiple AI providers
 - Autonomous task execution with human oversight
@@ -105,6 +116,7 @@ Cline is an open-source AI autonomous coding agent for VS Code that can create/e
 - Active development and strong community support
 
 **Cons:**
+
 - Requires API keys and credits from AI providers (ongoing cost)
 - Can be expensive with high token usage for complex tasks
 - Limited by rate limits of chosen AI model provider
@@ -112,12 +124,15 @@ Cline is an open-source AI autonomous coding agent for VS Code that can create/e
 - Learning curve for optimal prompt engineering
 
 ## Date Added
+
 2025-05-14
 
 ## Last Updated
+
 2025-05-14
 
 ## Notes
+
 - Cline was previously known as "ClaudeDev"
 - Best performance achieved with Anthropic's Claude 3.7 Sonnet model
 - MCP Marketplace (v3.4+) allows installation of community-created tools

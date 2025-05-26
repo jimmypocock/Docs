@@ -6,7 +6,7 @@ You are tasked with creating a standardized resource entry for a software tool i
 3. Find installation/setup instructions
 4. Determine pros/cons and alternatives
 5. Generate appropriate tags based on tool type and purpose
-6. Return the completed template ready for use
+6. Return the completed template ready for use in an .md document
 
 ## Tool to analyze:
 [PASTE TOOL NAME OR URL HERE]

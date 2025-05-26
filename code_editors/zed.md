@@ -1,9 +1,11 @@
 # Zed
 
 ## Description
+
 Zed is a high-performance, multiplayer code editor written from scratch in Rust by the creators of Atom and Tree-sitter. It leverages multiple CPU cores and GPU acceleration for blazing-fast performance while featuring real-time collaboration, native AI integration, and a clean, minimalist interface.
 
 ## URL/Installation
+
 - Website: https://zed.dev/
 - GitHub: https://github.com/zed-industries/zed
 - Installation:
@@ -12,9 +14,11 @@ Zed is a high-performance, multiplayer code editor written from scratch in Rust 
   - **Windows**: Build from source (official release coming soon)
 
 ## Tags
+
 #tool #editor #beginner #intermediate #open-source #free #cross-platform #performance #collaboration #ai #rust #gpu-accelerated #multiplayer #real-time
 
 ## Use Cases
+
 - High-performance code editing and development
 - Real-time collaborative coding sessions
 - AI-assisted programming with multiple LLM integrations
@@ -24,6 +28,7 @@ Zed is a high-performance, multiplayer code editor written from scratch in Rust 
 - Git workflow management with native integration
 
 ## Key Features
+
 - **Blazing Fast Performance**: Written in Rust with GPU acceleration for instant startup and smooth editing
 - **Real-time Collaboration**: Built-in multiplayer editing with voice chat and screen sharing
 - **Native AI Integration**: Agent Panel with support for multiple LLMs (Claude, GPT, Ollama, etc.)
@@ -37,6 +42,7 @@ Zed is a high-performance, multiplayer code editor written from scratch in Rust 
 ## Installation/Setup
 
 ### macOS
+
 ```bash
 # Download from website or use Homebrew
 brew install zed
@@ -45,6 +51,7 @@ brew install zed
 ```
 
 ### Linux
+
 ```bash
 # Using install script
 curl -f https://zed.dev/install.sh | sh
@@ -54,6 +61,7 @@ curl -f https://zed.dev/install.sh | sh
 ```
 
 ### Windows
+
 ```bash
 # Build from source (official release pending)
 git clone https://github.com/zed-industries/zed.git
@@ -62,6 +70,7 @@ cargo build --release
 ```
 
 ### CLI Setup
+
 ```bash
 # Install CLI tool (from within Zed app)
 # Go to Zed > Install CLI in application menu
@@ -77,11 +86,13 @@ export EDITOR="zed --wait"
 ## Basic Usage
 
 ### Command Palette
+
 ```
 cmd-shift-p / ctrl-shift-p  # Open command palette (most important shortcut)
 ```
 
 ### File Operations
+
 ```
 cmd-o / ctrl-o              # Open file
 cmd-n / ctrl-n              # New file
@@ -90,6 +101,7 @@ cmd-shift-n / ctrl-shift-n  # New window
 ```
 
 ### Navigation
+
 ```
 cmd-p / ctrl-p              # Go to file
 cmd-shift-f / ctrl-shift-f  # Search in project
@@ -97,6 +109,7 @@ cmd-g / ctrl-g              # Go to line
 ```
 
 ### AI Features
+
 ```
 cmd-enter / ctrl-enter      # Open AI assistant
 cmd-shift-c / ctrl-shift-c  # Collaboration panel
@@ -105,6 +118,7 @@ cmd-shift-c / ctrl-shift-c  # Collaboration panel
 ## Configuration
 
 ### Settings (settings.json)
+
 ```json
 {
   "theme": "Andromeda",
@@ -139,6 +153,7 @@ cmd-shift-c / ctrl-shift-c  # Collaboration panel
 ```
 
 ### Keybindings (keymap.json)
+
 ```json
 [
   {
@@ -159,6 +174,7 @@ cmd-shift-c / ctrl-shift-c  # Collaboration panel
 ```
 
 ## Alternatives
+
 - **VS Code**: Most popular, extensive extension ecosystem, but slower performance
 - **Sublime Text**: Fast and stable, but proprietary and limited collaboration features
 - **Vim/Neovim**: Highly customizable and lightweight, but steeper learning curve
@@ -167,7 +183,9 @@ cmd-shift-c / ctrl-shift-c  # Collaboration panel
 - **Fleet**: JetBrains' next-gen editor with collaboration features
 
 ## Pros/Cons
+
 **Pros:**
+
 - Exceptional performance and speed (fastest editor startup times)
 - Built-in real-time collaboration without plugins
 - Native AI integration with multiple providers
@@ -179,6 +197,7 @@ cmd-shift-c / ctrl-shift-c  # Collaboration panel
 - Memory efficient compared to Electron-based editors
 
 **Cons:**
+
 - Limited extension ecosystem compared to VS Code
 - Windows support still in development
 - Smaller community and fewer third-party resources
@@ -188,12 +207,15 @@ cmd-shift-c / ctrl-shift-c  # Collaboration panel
 - No stable Windows release yet
 
 ## Date Added
+
 2025-05-14
 
 ## Last Updated
+
 2025-05-14
 
 ## Notes
+
 - Zed excels at speed and collaboration but may not be suitable for users heavily dependent on specific VS Code extensions
 - The editor is particularly strong for JavaScript/TypeScript, Rust, and Python development
 - AI features require API keys for external providers or use of Zed Pro subscription

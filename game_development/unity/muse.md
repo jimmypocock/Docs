@@ -1,17 +1,21 @@
 # Unity Muse
 
 ## Description
+
 Unity Muse is an AI-powered suite of tools integrated directly into the Unity Editor that enhances game development workflows with generative AI capabilities including chat assistance, asset creation, and animation generation.
 
 ## URL/Installation
+
 - Website: https://unity.com/products/muse
 - GitHub: N/A (Proprietary Unity tool)
 - Installation: Available through Unity Package Manager (requires Unity 2023.3/Unity 6 or later)
 
 ## Tags
+
 #tool #game-development #ai #unity #intermediate #paid #generative-ai #3d #2d #asset-creation #chat-assistant
 
 ## Use Cases
+
 - AI-powered chat assistance for Unity-specific development questions
 - Generate game-ready textures from text prompts
 - Create 2D sprites directly within Unity Editor
@@ -21,6 +25,7 @@ Unity Muse is an AI-powered suite of tools integrated directly into the Unity Ed
 - Rapid prototyping of game assets and mechanics
 
 ## Key Features
+
 - **Muse Chat**: Project-aware AI assistant trained on Unity documentation and resources
 - **Muse Texture**: Generate realistic or imaginative textures from text prompts
 - **Muse Sprite**: Create 2D art and sprites instantly with text descriptions
@@ -30,6 +35,7 @@ Unity Muse is an AI-powered suite of tools integrated directly into the Unity Ed
 - **In-editor integration**: All tools work directly within Unity Editor without external dependencies
 
 ## Installation/Setup
+
 ```bash
 # Install via Unity Package Manager
 # 1. Open Unity Editor (2023.3 or later)
@@ -54,6 +60,7 @@ com.unity.muse.animate
 ```
 
 ## Basic Usage
+
 ```csharp
 // Access Muse Chat
 // Go to main menu: Muse > Chat
@@ -73,6 +80,7 @@ com.unity.muse.animate
 ```
 
 ## Configuration
+
 ```yaml
 # Unity Muse requires:
 # - Unity 2023.3 (Unity 6) or later
@@ -87,6 +95,7 @@ com.unity.muse.animate
 ```
 
 ## Alternatives
+
 - **Ludo.ai**: Game concept research and asset generation with trend analysis
 - **Scenario.ai**: AI-powered game asset creation with custom model training
 - **Charmed.ai**: AI toolkit for 3D asset generation and game development
@@ -94,7 +103,9 @@ com.unity.muse.animate
 - **External AI tools**: ChatGPT/Claude for coding assistance + Midjourney/DALL-E for assets (manual integration required)
 
 ## Pros/Cons
+
 **Pros:**
+
 - Seamlessly integrated into Unity Editor workflow
 - Project-aware AI chat trained specifically on Unity resources
 - Multiple specialized tools for different asset types (sprites, textures, animations)
@@ -103,6 +114,7 @@ com.unity.muse.animate
 - 30-day free trial with unlimited generations
 
 **Cons:**
+
 - Requires paid subscription ($30/month) after trial
 - Limited to Unity ecosystem only
 - Requires Unity 2023.3 or later
@@ -111,12 +123,15 @@ com.unity.muse.animate
 - May raise concerns about AI-generated content ownership and ethics
 
 ## Date Added
+
 2025-05-15
 
 ## Last Updated
+
 2025-05-15
 
 ## Notes
+
 - Unity Muse is currently in early access, so features and pricing may change
 - The tool is designed specifically for Unity users and won't work in other game engines
 - All AI models are trained using Unity-owned data to address ethical concerns
